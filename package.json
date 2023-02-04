@@ -1,0 +1,24 @@
+{
+  "name": "prod-ready-webpack",
+  "version": "1.0.0",
+  "description": "Building fully functional, production ready Webpack configuration from scratch! ⚙️🛠️",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prasenjit-3433/prod-ready-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prasenjit-3433/prod-ready-webpack/issues"
+  },
+  "homepage": "https://github.com/Prasenjit-3433/prod-ready-webpack#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
