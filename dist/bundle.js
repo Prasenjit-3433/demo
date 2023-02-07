@@ -576,9 +576,24 @@ var __webpack_exports__ = {};
 (() => {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_hello_world_button_hello_world_button__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+var _ref, _ref2, _ref3, _;
 
 var helloWorldButton = new _components_hello_world_button_hello_world_button__WEBPACK_IMPORTED_MODULE_0__["default"]();
 helloWorldButton.render();
+function add(x) {
+  return x + 10;
+}
+function subtract(x) {
+  return x - 5;
+}
+
+// Without pipeline operator
+var val1 = add(subtract(add(subtract(10))));
+console.log(val1);
+
+// Using pipeline operator
+var val2 = (_ref = (_ref2 = (_ref3 = (_ = 10, subtract(_)), add(_ref3)), subtract(_ref2)), add(_ref));
+console.log(val2);
 })();
 
 /******/ })()
