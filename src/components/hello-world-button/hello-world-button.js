@@ -1,4 +1,4 @@
-import './hello-word-button.css';
+import './hello-word-button.scss';
 
 class HelloWorldButton {
     render() {
