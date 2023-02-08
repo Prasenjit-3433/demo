@@ -1,2 +1,1 @@
-# prod-ready-webpack
- Building fully functional, production ready Webpack configuration from scratch! ⚙️🛠️
+Starting file for the blog - an easy-to-understand complete guide to plugins in Webpack 5
